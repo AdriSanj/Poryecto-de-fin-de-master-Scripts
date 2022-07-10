@@ -50,7 +50,7 @@ phys = reader_ROMS_native.Reader('modelo_hidrodinamico.nc')
 
 # Adding readers
 model.add_reader(phys)
-
+model.set_config('general:use_auto_landmask', False)
 object_type = 1 # PIW-1 Person-in-water (PIW), unknown state (mean values)
 
 
