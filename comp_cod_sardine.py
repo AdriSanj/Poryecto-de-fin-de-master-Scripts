@@ -11,8 +11,6 @@ from mpl_toolkits.basemap import Basemap
 from scipy.interpolate import griddata
 
 # --------------------------------------------------------------------------+
-
-#archive = 'abril_2013_atlantico_OD_meteogalicia.nc'
 archive_1 = 'cod_output.nc'
 archive_2 = 'sardine_output.nc'
 # --------------------------------------------------------------------------+
@@ -28,13 +26,6 @@ minlat = 41
 maxlat = 47
 
 initime = datetime.datetime(1970,1,1)
-
-# --------------------------------------------------------------------------+
-
-# Dont touch unless specified by the archive
-#initime = datetime.datetime(1970,1,1)		# For Ichthyop comparisions
-#initime = datetime.datetime(2013,5,1)
-#initime = datetime.datetime(2009,1,1)
 
 # --------------------------------------------------------------------------+
 
